@@ -24,8 +24,6 @@ function clearboard() {
 	var cw = canvas.width;
 	var ch = canvas.height;
 	ctx.clearRect(0, 0, cw, ch);
-	document.getElementById("guesser").value = 500;
-	document.getElementById("guessdisp").value = 50;
 }
 
 
