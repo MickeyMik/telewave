@@ -82,6 +82,12 @@ function button_guess() {
 	drawguess();
 }
 
+function button_clear() {
+	clearboard();
+	document.getElementById("guesser").value = 500;
+	document.getElementById("guessdisp").value = 50;
+}
+
 function update_seed() {
 	Math.seedrandom();
 	$("#seed").val(Math.floor(Math.random() * 10000));
